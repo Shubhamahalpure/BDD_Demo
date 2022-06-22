@@ -43,7 +43,8 @@ public class Loginstepdef {
 	 */
 	
 	/*  // Login with data table method 
-	 * @When("^user enters valid credentials$") public void
+	 * @When("^user enters valid credentials$") 
+	 * public void
 	 * user_enters_valid_credentials(DataTable credentials) throws Throwable {
 	 * List<List<String>> data = credentials.raw();
 	 * driver.findElement(By.id("email")).sendKeys(data.get(0).get(0));

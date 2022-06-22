@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		features="src//main//java//com/Feature",
 		glue="com.stepdefs",
 		dryRun =false, // it is used to compile feature file
-		monochrome = true,
+		monochrome = true,//for readable output
 		strict = false,
 		plugin= "html:target",
 		tags = "@xyz"
